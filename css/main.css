@@ -125,6 +125,14 @@ p {
   line-height: 1.285;
 }
 
+img {
+  width: 100%;
+}
+
+figure {
+  margin: 0;
+}
+
 address {
   font-style: normal;
 }
@@ -154,6 +162,14 @@ header .content-wrapper {
   align-items: center;
   flex-flow: row wrap;
   margin: 0;
+}
+
+header figure {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 .header-divider {
@@ -219,6 +235,10 @@ footer .copyright {
 
 /* ======= MOBILE STYLES - HOMEPAGE ======= */
 .hero-area {
+  background: url(../img/unplugged-retreat.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -228,7 +248,7 @@ footer .copyright {
   font-size: 2.25em;
   font-family: 'Poppins', Helvetica, Arial, sans-serif;
   font-weight: 500; 
-  line-height: 1.2; 
+  line-height: 1.2;
 }
 
 /* Aside */
@@ -268,6 +288,9 @@ input[type=button] {
 
 /* Features */
 .features {
+  background: url('../img/unplugged-retreat-features.jpg');
+  background-size: cover;
+  background-position: center;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -294,6 +317,7 @@ input[type=button] {
   margin: 0;
 }
 
+/* Reviews */
 .reviews {
   background-color: #2a423a;
   display: flex;
@@ -476,6 +500,10 @@ h3 {
   header .content-wrapper {
     width: 100%;
     justify-content: space-between;
+  }
+
+  header figure {
+    width: 30%;
   }
 
   header nav {
@@ -679,12 +707,12 @@ h3 {
   }
 
   /*Reviews*/
-  .reviews h2 {
-    padding-bottom: 50px; 
-  }
-
   .reviews article div {
     width: 42%;
+  }
+
+  .reviews h2 {
+    padding-bottom: 50px;
   }
 
   footer h4 {
