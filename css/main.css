@@ -95,6 +95,7 @@ html {
 body {
   font-size: 1em;
   font-family: 'Open Sans', sans-serif;
+  color: #e2e3ed;
   text-align: left;
 }
 
@@ -310,6 +311,11 @@ input[type=button] {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+}
+
+.features i {
+  font-size: 3.75em;
+  margin-bottom: 40px;
 }
 
 .features p {
