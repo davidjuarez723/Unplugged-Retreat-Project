@@ -196,6 +196,7 @@ header nav ul {
   justify-content: space-around;
   width: 100%;
 }
+
 header nav ul li {
   font-size: 1.125em;
 }
@@ -228,6 +229,10 @@ footer .social-icons p {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+footer .social-icons p i {
+  font-size: 1.3125em;
 }
 
 footer .copyright {
@@ -624,6 +629,11 @@ h3 {
     line-height: 1.285;
   }
 
+  footer .social-icons {
+    width: 12.5em;
+    justify-content: space-between;
+  }
+
   footer .copyright {
     width: 100%;
   }
@@ -762,7 +772,7 @@ h3 {
     font-size: 1.875em;
   }
 
-    /*======= ABOUT PAGE =======*/
+    /*======= FAQ PAGE =======*/
 
   .faq h2 {
     width: 100%;
