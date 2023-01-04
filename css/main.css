@@ -102,6 +102,8 @@ body {
 ul,
 ol {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 a {
@@ -111,7 +113,9 @@ a {
 
 h2 {
   font-family: 'Poppins', sans-serif;
+  font-weight: 500;
   font-size: 1.875em;
+  margin: 0;
 }
 
 h3,
@@ -119,6 +123,7 @@ h4 {
   font-family: 'Poppins', sans-serif;
   margin: 20px 0;
   font-size: 1.125em;
+  margin: 20px 0;
 }
 
 p {
@@ -226,6 +231,10 @@ footer .social-icons {
 }
 
 footer .social-icons p {
+  background-color: #527158;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -236,7 +245,7 @@ footer .social-icons p i {
 }
 
 footer .copyright {
-  margin: 20px 0;
+  margin: 20px 0px;
 }
 
 /* ======= MOBILE STYLES - HOMEPAGE ======= */
